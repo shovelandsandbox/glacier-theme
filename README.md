@@ -2,7 +2,7 @@
 
 Glacier is a flat, colorful theme for Sublime Text 2.
 
-![Glacier Screenshot]('screenshot.png')
+![Glacier Screenshot](https://github.com/joeyfigaro/glacier-theme/blob/master/screenshot.jpg)
 
 ## Install
 
