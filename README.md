@@ -31,3 +31,7 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
 ### Credits
 
 Most icons are from the fantastic [Spacegray](https://github.com/kkga/spacegray) by [Gadzhi Kharkharov](https://github.com/kkga/) - the folder icon seen in the sidebar is from the talented [Joe Harrison](http://thenounproject.com/joe_harrison/) via [the noun project](http://thenounproject.com/). 
+
+### Future Updates
+
+This is my first time writing a theme/color scheme for Sublime, so I have much to learn. As I learn more about styling bits and pieces of the UI, I will make improvements. Please feel free to open issues as you see fit, fork and improve, or contact/follow me on [Twitter](http://twitter.com/joeyfigaro).
