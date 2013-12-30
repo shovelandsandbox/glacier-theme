@@ -340,8 +340,6 @@
 			<dict>
 				<key>foreground</key>
 				<string>#ffffff</string>
-				<key>fontStyle</key>
-				<string> bold</string>
 			</dict>
 		</dict>
 		<dict>
