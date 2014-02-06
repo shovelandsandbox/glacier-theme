@@ -1,6 +1,6 @@
 # Glacier
 
-[Glacier](http://glaciertheme.com) is a flat, colorful theme for Sublime Text 2.
+[Glacier](http://glaciertheme.com) is a flat, colorful theme/color scheme for Sublime Text 2. It focuses on using brighter colors to introduce more contrast compared to other flat approaches. 
 
 ![Glacier Screenshot](screenshot.jpg)
 ![Glacier Screenshot](screenshot-2.jpg)
