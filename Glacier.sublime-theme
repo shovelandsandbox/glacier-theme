@@ -1,7 +1,7 @@
 [
-//
-// TABS (REGULAR)
-//
+//========================================================
+//  TABS (REGULAR)
+//--------------------------------------------------------
     // Tab set
     {
         "class": "tabset_control",
@@ -56,9 +56,9 @@
         "content_margin": [12,3,7,3]
     },
 
-//
-// TAB BUTTONS
-//
+//========================================================
+//  TAB BUTTONS
+//--------------------------------------------------------
     // Tab close button
     {
         "class": "tab_close_button",
@@ -134,9 +134,9 @@
         "layer0.opacity":0.8
     },
 
-//
-// TAB LABELS
-//
+//========================================================
+//  TAB LABELS
+//--------------------------------------------------------
 
     {
         "class": "tab_label",
@@ -160,9 +160,9 @@
         "shadow_offset": [1, 1]
     },
 
-//
-// FOLD BUTTONS
-//
+//========================================================
+//  FOLD BUTTONS
+//--------------------------------------------------------
 
     {
         "class": "fold_button_control",
@@ -186,9 +186,9 @@
         "attributes": ["expanded","hover"]
     },
 
-//
-// STANDARD SCROLLBARS
-//
+//========================================================
+//  STANDARD SCROLLBARS
+//--------------------------------------------------------
 
     // Standard vertical scroll bar
     {
@@ -237,9 +237,9 @@
         "blur": false
     },
 
-//
-// OVERLAY SCROLLBARS
-//
+//========================================================
+//  OVERLAY SCROLLBARS
+//--------------------------------------------------------
 
     // Overlay toggle scroll bar
     {
@@ -306,9 +306,9 @@
         "layer0.tint": [28,31,38]
     },
 
-//
-// EMPTY WINDOW BACKGROUND
-//
+//========================================================
+//  EMPTY WINDOW BACKGROUND
+//--------------------------------------------------------
 
     {
         "class": "sheet_container_control",
@@ -316,9 +316,9 @@
         "layer0.opacity": 1
     },
 
-//
-// GRID LAYOUT
-//
+//========================================================
+//  GRID LAYOUT
+//--------------------------------------------------------
 
     {
         "class": "grid_layout_control",
@@ -326,18 +326,18 @@
         "border_color": [40,40,40]
     },
 
-//
-// MINI MAP
-//
+//========================================================
+//  MINI MAP
+//--------------------------------------------------------
 
     {
         "class": "minimap_control",
         "viewport_color": [100,100,100,40]
     },
 
-//
-// LABELS
-//
+//========================================================
+//  LABELS
+//--------------------------------------------------------
 
     // General labels
     {
@@ -359,9 +359,9 @@
         "shadow_offset": [0,0]
     },
 
-//
-// TOOLTIP
-//
+//========================================================
+//  TOOLTIP
+//--------------------------------------------------------
 
     // Tooltip container
     {
@@ -378,9 +378,9 @@
         "color": [239,241,245]
     },
 
-//
-// STATUS BAR
-//
+//========================================================
+//  STATUS BAR
+//--------------------------------------------------------
 
     // Status bar container
     {
@@ -403,9 +403,9 @@
         "shadow_offset": [0,0]
     },
 
-//
-// SIDEBAR
-//
+//========================================================
+//  SIDEBAR
+//--------------------------------------------------------
 
     // Sidebar container
     {
@@ -492,9 +492,9 @@
         "shadow_offset": [0,0]
     },
 
-//
-// SIDEBAR - OPEN FILE ICONS
-//
+//========================================================
+//  SIDEBAR - OPEN FILE ICONS
+//--------------------------------------------------------
 
     // Sidebar file close
     {
@@ -546,9 +546,9 @@
         "layer0.opacity": 1
     },
 
-//
-// SIDEBAR - GENERAL FILE ICONS
-//
+//========================================================
+//  SIDEBAR - GENERAL FILE ICONS
+//--------------------------------------------------------
 
     // Sidebar group closed
     {
@@ -602,27 +602,126 @@
     {
         "class": "disclosure_button_control",
         "settings": ["soda_folder_icons"],
-        "attributes": ["expanded"]//,
-        // "layer0.texture": "Theme - Glacier/Glacier/folder-open.png"
+        "attributes": ["expanded"]
     },
     {
         "class": "disclosure_button_control",
         "settings": ["soda_folder_icons"],
         "attributes": ["expanded"],
-        "parents": [{"class": "tree_row","attributes": ["hover"]}]//,
-        // "layer0.texture": "Theme - Glacier/Glacier/folder-open.png"
+        "parents": [{"class": "tree_row","attributes": ["hover"]}]
     },
     {
         "class": "disclosure_button_control",
         "settings": ["soda_folder_icons"],
         "attributes": ["expanded"],
-        "parents": [{"class": "tree_row","attributes": ["selected"]}]//,
-        // "layer0.texture": "Theme - Glacier/Glacier/folder-open.png"
+        "parents": [{"class": "tree_row","attributes": ["selected"]}]
+    },
+    //========================================================
+    //  ICONS (build 3062+)
+    //--------------------------------------------------------
+    {
+        "class": "icon_file_type",
+        // layer0.texture is filled in by code with the relevant icon name
+        "layer0.tint": [215, 215, 220],
+        "layer0.opacity": 0.5,
+        "content_margin": [8, 8]
+    },
+    {
+        "class": "icon_file_type",
+        "parents": [{"class": "tree_row","attributes": ["hover"]}],
+        "layer0.tint": [215, 65, 65],
+        "layer0.opacity": 1
+    },
+    {
+        "class": "icon_file_type",
+        "parents": [{"class": "tree_row","attributes": ["selected"]}],
+        "layer0.tint": [215, 215, 220],
+        "layer0.opacity": 1
+    },
+    {
+        "class": "icon_file_type",
+        "parents": [{"class": "tree_row","attributes": ["selected", "hover"]}],
+        "layer0.tint": [215, 65, 65],
+        "layer0.opacity": 1
+    },
+    {
+        "class": "icon_folder",
+        "layer0.texture": "Theme - Glacier/Glacier/folder@2x.png",
+        "layer0.tint": [215, 215, 220],
+        "layer0.opacity": 0.5,
+        "content_margin": [8, 8]
+    },
+    {
+        "class": "icon_folder",
+        "parents": [{"class": "tree_row","attributes": ["hover"]}],
+        "layer0.tint": [215, 65, 65],
+        "layer0.opacity": 1
+    },
+    {
+        "class": "icon_folder",
+        "parents": [{"class": "tree_row","attributes": ["selected"]}],
+        "layer0.tint": [215, 215, 220],
+        "layer0.opacity": 1
+    },
+    {
+        "class": "icon_folder",
+        "parents": [{"class": "tree_row","attributes": ["selected", "hover"]}],
+        "layer0.tint": [215, 65, 65],
+        "layer0.opacity": 1
+    },
+    {
+        "class": "icon_folder",
+        "parents":
+        [
+            { "class": "tree_row", "attributes": ["expanded"] }
+        ],
+        "layer0.texture": "Theme - Glacier/Glacier/folder-open.png"
+    },
+    {
+        "class": "icon_folder_loading",
+        "layer0.texture":
+        {
+            "keyframes":
+            [
+                "Theme - Glacier/Glacier/spinner7.png",
+                "Theme - Glacier/Glacier/spinner6.png",
+                "Theme - Glacier/Glacier/spinner5.png",
+                "Theme - Glacier/Glacier/spinner4.png",
+                "Theme - Glacier/Glacier/spinner3.png",
+                "Theme - Glacier/Glacier/spinner2.png",
+                "Theme - Glacier/Glacier/spinner1.png",
+                "Theme - Glacier/Glacier/spinner.png"
+            ],
+            "loop": true,
+            "frame_time": 0.075
+        },
+        "layer0.tint": [215, 215, 220],
+        "layer0.opacity": 1.0,
+        "content_margin": [8, 8]
+    },
+    // Sidebar icons disabled
+    {
+        "class": "icon_file_type",
+        "settings": ["theme_glacier_hide_sidebar_icons"],
+        "layer0.texture": "",
+        "content_margin": [0,0]
+    },
+    {
+        "class": "icon_folder",
+        "settings": ["theme_glacier_hide_sidebar_icons"],
+        "layer0.texture": "",
+        "content_margin": [0,0]
+    },
+    {
+        "class": "icon_folder_loading",
+        "settings": ["theme_glacier_hide_sidebar_icons"],
+        "layer0.texture": "",
+        "content_margin": [0,0]
     },
 
-//
-// STANDARD TEXT BUTTONS
-//
+//========================================================
+//  STANDARD TEXT BUTTONS
+//--------------------------------------------------------
 
     // Default button state
     {
@@ -648,9 +747,10 @@
         "layer0.texture": "",
         "layer0.tint": [0,0,0]
     },
-//
-// TEXT INPUT FIELD
-//
+
+//========================================================
+//  TEXT INPUT FIELD
+//--------------------------------------------------------
 
     // Text input field item
     {
@@ -662,9 +762,9 @@
         "content_margin": [5,7,0,5]
     },
 
-//
-// PANEL BACKGROUNDS
-//
+//========================================================
+//  PANEL BACKGROUNDS
+//--------------------------------------------------------
 
     // Bottom panel background
     {
@@ -686,9 +786,9 @@
         "content_margin": [0, 0, 0, 0]
     },
 
-//
-// QUICK PANEL
-//
+//========================================================
+//  QUICK PANEL
+//--------------------------------------------------------
 
     {
         "class": "quick_panel",
@@ -736,9 +836,9 @@
         "selected_fg": [94,235,184]
     },
 
-//
-// MINI QUICK PANEL
-//
+//========================================================
+//  MINI QUICK PANEL
+//--------------------------------------------------------
 
     {
         "class": "mini_quick_panel_row",
@@ -753,13 +853,12 @@
         "layer0.tint": [3,4,5]
     },
 
-//
-// CODE COMPLETION DROPDOWN
-//
+//========================================================
+//  CODE COMPLETION DROPDOWN
+//--------------------------------------------------------
 
     {
         "class": "popup_control",
-        // "content_margin": [13,13],
         "content_margin": [0,0],
         "layer0.tint": [11,16,21],
         "layer0.opacity": 1
@@ -788,9 +887,9 @@
         "layer0.opacity": 1
     },
 
-//
-// BOTTOM PANEL BUTTONS
-//
+//========================================================
+//  BOTTOM PANEL BUTTONS
+//--------------------------------------------------------
 
     // Button group middle
     {
@@ -845,9 +944,9 @@
         "layer0.texture": ""
     },
 
-//
-// BOTTOM PANEL ICONS - GROUP 1
-//
+//========================================================
+//  BOTTOM PANEL ICONS - GROUP 1
+//--------------------------------------------------------
 
     // Regex search button
     {
@@ -904,9 +1003,9 @@
         "layer0.tint": [94,235,184]
     },
 
-//
-// BOTTOM PANEL ICONS - GROUP 1 (EXTENDED: FIND IN FILES)
-//
+//========================================================
+//  BOTTOM PANEL ICONS - GROUP 1 (EXTENDED: FIND IN FILES)
+//--------------------------------------------------------
 
     // Show search context button
     {
@@ -945,9 +1044,10 @@
         "layer0.tint": [94,235,184]
     },
 
-//
-// BOTTOM PANEL ICONS - GROUP 2
-//
+//========================================================
+//  BOTTOM PANEL ICONS - GROUP 2
+//--------------------------------------------------------
+
     // Reverse search direction button (ST2 only)
     {
         "class": "icon_reverse",
@@ -1003,9 +1103,9 @@
         "layer0.tint": [94,235,184]
     },
 
-//
-// BOTTOM PANEL ICONS - GROUP 3
-//
+//========================================================
+//  BOTTOM PANEL ICONS - GROUP 3
+//--------------------------------------------------------
 
     // Preserve case button
     {
@@ -1026,9 +1126,9 @@
         "layer0.tint": [94,235,184]
     },
 
-//
-// BOTTOM PANEL ICONS - GROUP 4
-//
+//========================================================
+//  BOTTOM PANEL ICONS - GROUP 4
+//--------------------------------------------------------
 
     // Highlight results button
     {
