@@ -104,6 +104,19 @@
         </dict>
         <dict>
             <key>name</key>
+            <string>Storage type</string>
+            <key>scope</key>
+            <string>storage.type</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>italic</string>
+                <key>foreground</key>
+                <string>#3cadd7</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
             <string>String</string>
             <key>scope</key>
             <string>string</string>
