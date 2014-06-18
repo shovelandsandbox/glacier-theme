@@ -212,7 +212,7 @@
     {
         "class": "scroll_corner_control",
         "layer0.texture": "",
-        "layer0.tint":[52,61,70],
+        "layer0.tint":[11,16,21],
         "layer0.inner_margin": [0,0],
         "layer0.opacity": 1
     },
