@@ -4,6 +4,7 @@
 
 ![Glacier Screenshot](screenshot.jpg)
 ![Glacier Screenshot](screenshot-2.jpg)
+(font shown in screenshots is [Ubuntu Mono](http://font.ubuntu.com/))
 
 ## Install
 
@@ -25,7 +26,8 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
 ```
 {
   "theme": "Glacier.sublime-theme",
-  "color_scheme": "Packages/Theme - Glacier/glacier.tmTheme"
+  "color_scheme": "Packages/Theme - Glacier/glacier.tmTheme",
+  "font_face": "Ubuntu Mono"
 }
 ```
 
