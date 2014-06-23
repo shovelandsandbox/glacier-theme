@@ -41,5 +41,5 @@ Most icons are from the fantastic [Spacegray](https://github.com/kkga/spacegray)
 
 This is my first time writing a theme/color scheme for Sublime, so I have much to learn. As I learn more about styling bits and pieces of the UI, I will make improvements. Please feel free to open issues as you see fit, fork and improve, or contact/follow me on [Twitter](http://twitter.com/joeyfigaro).
 
-
+### Donations
 [![help fund my expensive beer habit](http://f.cl.ly/items/3t2n310h1e3R2D0H011c/Image%202014-06-22%20at%2011.30.22%20PM.png)](https://www.gittip.com/joeyfigaro/)
