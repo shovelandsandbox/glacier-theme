@@ -8,17 +8,17 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-        <string>#070b0e</string>
-        <key>caret</key>
-        <string>#ffe792</string>
-        <key>foreground</key>
-        <string>#efefef</string>
-        <key>invisibles</key>
-        <string>#F3FFB51A</string>
-        <key>selection</key>
-        <string>#bd4230</string>
+        			<string>#070b0e</string>
+			        <key>caret</key>
+			        <string>#ffe792</string>
+			        <key>foreground</key>
+			        <string>#efefef</string>
+			        <key>invisibles</key>
+			        <string>#F3FFB51A</string>
+			        <key>selection</key>
+			        <string>#bd4230</string>
 			</dict>
 		</dict>
 	</array>
 </dict>
-</plist<name /<name />
+</plist>
