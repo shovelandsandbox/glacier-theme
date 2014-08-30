@@ -62,7 +62,7 @@
     // Tab close button
     {
         "class": "tab_close_button",
-        "layer0.texture": "Theme - Glacier/Glacier/close.png",
+        "layer0.texture": "Theme - Glacier/Glacier/close@2x.png",
         "layer0.opacity": 0,
         "layer0.tint": [61,89,120]
     },
@@ -183,7 +183,7 @@
     },
     {
         "class": "fold_button_control",
-        "attributes": ["expanded","hover"],
+        "attributes": ["expanded","hover"]
     },
 
 //========================================================
@@ -428,7 +428,7 @@
     // Sidebar rows
     {
         "class": "tree_row",
-        "layer0.texture": "",
+        "layer0.texture": null,
         "layer0.tint": [0,0,0],
         "layer0.opacity": 0,
         "layer0.inner_margin": [1,1]
@@ -472,6 +472,7 @@
         "class": "sidebar_label",
         "parents": [{"class": "tree_row","attributes": ["hover"]}],
         "color": [255,255,255]
+        // "color": [255,54,60]
     },
     {
         "class": "sidebar_label",
@@ -524,13 +525,13 @@
         "class": "close_button",
         "attributes": ["dirty"],
         "parents": [{"class": "tree_row","attributes": ["selected"]}],
-        "layer0.texture": "Theme - Glacier/Glacier/close.png"
+        "layer0.texture": "Theme - Glacier/Glacier/close@2x.png"
     },
     {
         "class": "close_button",
         "attributes": ["dirty"],
         "parents": [{"class": "tree_row","attributes": ["hover"]}],
-        "layer0.texture": "Theme - Glacier/Glacier/close.png",
+        "layer0.texture": "Theme - Glacier/Glacier/close@2x.png",
         "layer0.opacity": 1,
         "layer0.tint": [94,235,184]
     },
@@ -538,12 +539,12 @@
     {
         "class": "close_button",
         "attributes": ["hover"],
-        "layer0.texture": "Theme - Glacier/Glacier/close.png"
+        "layer0.texture": "Theme - Glacier/Glacier/close@2x.png"
     },
     {
         "class": "close_button",
         "parents": [{"class": "tree_row","attributes": ["hover","selected"]}],
-        "layer0.texture": "Theme - Glacier/Glacier/close.png",
+        "layer0.texture": "Theme - Glacier/Glacier/close@2x.png",
         "layer0.opacity": 1
     },
 
@@ -552,71 +553,41 @@
 //--------------------------------------------------------
 
     // Sidebar group closed
-    {
+     {
         "class": "disclosure_button_control",
-        "content_margin": [8,8],
-        "layer0.texture": "Theme - Glacier/Glacier/folder.png",
-        "layer0.tint": [79,91,102],
-        "layer0.opacity": 1,
-        "layer0.inner_margin": 0
+        "content_margin": [8, 8],
+        "layer0.texture": "Theme - Glacier/Glacier/group_closed@2x.png",
+        "layer0.inner_margin": 0,
+        "layer0.tint": [200, 200, 200],
+        "layer0.opacity": 1.0
     },
-    {
-        "class": "disclosure_button_control",
-        "parents": [{"class": "tree_row","attributes": ["hover"]}],
-        "layer0.tint":[167,173,186]
-    },
-    {
-        "class": "disclosure_button_control",
-        "parents": [{"class": "tree_row","attributes": ["selected"]}]
-    },
-    // Sidebar folder closed
-    {
-        "class": "disclosure_button_control",
-        "settings": ["soda_folder_icons"]
-    },
-    {
-        "class": "disclosure_button_control",
-        "settings": ["soda_folder_icons"],
-        "parents": [{"class": "tree_row","attributes": ["hover"]}]
-    },
-    {
-        "class": "disclosure_button_control",
-        "settings": ["soda_folder_icons"],
-        "parents": [{"class": "tree_row","attributes": ["selected"]}]
-    },
+
     // Sidebar group open
     {
         "class": "disclosure_button_control",
-        "attributes": ["expanded"]
-    },
-    {
-        "class": "disclosure_button_control",
         "attributes": ["expanded"],
-        "parents": [{"class": "tree_row","attributes": ["hover"]}]
+        "layer0.texture": "Theme - Glacier/Glacier/group_open@2x.png",
+        // "layer0.tint": [215, 65, 65]
     },
+
+    // Sidebar folder closed
     {
-        "class": "disclosure_button_control",
-        "attributes": ["expanded"],
-        "parents": [{"class": "tree_row","attributes": ["selected"]}]
+        "class": "icon_folder",
+        "layer0.texture": "Theme - Glacier/Glacier/folder-closed@2x.png",
+        "layer0.opacity": 1.0,
+        "layer0.inner_margin": 0,
+        "content_margin": [8, 8]
     },
-    // Sidebar folder open
+    // Sidebar folder opened
     {
-        "class": "disclosure_button_control",
-        "settings": ["soda_folder_icons"],
-        "attributes": ["expanded"]
+        "class": "icon_folder",
+        "parents":
+        [
+            { "class": "tree_row", "attributes": ["expanded"] }
+        ],
+        "layer0.texture": "Theme - Glacier/Glacier/folder-open@2x.png"
     },
-    {
-        "class": "disclosure_button_control",
-        "settings": ["soda_folder_icons"],
-        "attributes": ["expanded"],
-        "parents": [{"class": "tree_row","attributes": ["hover"]}]
-    },
-    {
-        "class": "disclosure_button_control",
-        "settings": ["soda_folder_icons"],
-        "attributes": ["expanded"],
-        "parents": [{"class": "tree_row","attributes": ["selected"]}]
-    },
+
     //========================================================
     //  ICONS (build 3062+)
     //--------------------------------------------------------
@@ -679,44 +650,44 @@
         "layer0.texture": "Theme - Glacier/Glacier/folder-open.png"
     },
     {
-		"class": "icon_folder_loading",
-		"layer0.texture":
-		{
-			"keyframes":
-			[
-				"Theme - Glacier/Glacier/spinner7.png",
-				"Theme - Glacier/Glacier/spinner6.png",
-				"Theme - Glacier/Glacier/spinner5.png",
-				"Theme - Glacier/Glacier/spinner4.png",
-				"Theme - Glacier/Glacier/spinner3.png",
-				"Theme - Glacier/Glacier/spinner2.png",
-				"Theme - Glacier/Glacier/spinner1.png",
-				"Theme - Glacier/Glacier/spinner.png"
-			],
-			"loop": true,
-			"frame_time": 0.075
-		},
-		"layer0.tint": [215, 215, 220],
-		"layer0.opacity": 1.0,
-		"content_margin": [8, 8]
-	},
+        "class": "icon_folder_loading",
+        "layer0.texture":
+        {
+            "keyframes":
+            [
+                "Theme - Glacier/Glacier/spinner7.png",
+                "Theme - Glacier/Glacier/spinner6.png",
+                "Theme - Glacier/Glacier/spinner5.png",
+                "Theme - Glacier/Glacier/spinner4.png",
+                "Theme - Glacier/Glacier/spinner3.png",
+                "Theme - Glacier/Glacier/spinner2.png",
+                "Theme - Glacier/Glacier/spinner1.png",
+                "Theme - Glacier/Glacier/spinner.png"
+            ],
+            "loop": true,
+            "frame_time": 0.075
+        },
+        "layer0.tint": [215, 215, 220],
+        "layer0.opacity": 1.0,
+        "content_margin": [8, 8]
+    },
     // Sidebar icons disabled
     {
         "class": "icon_file_type",
-        "settings": ["theme_Glacier_hide_sidebar_icons"],
-        "layer0.texture": "",
+        "settings": ["theme_glacier_hide_sidebar_icons"],
+        "layer0.texture": null,
         "content_margin": [0,0]
     },
     {
         "class": "icon_folder",
-        "settings": ["theme_Glacier_hide_sidebar_icons"],
-        "layer0.texture": "",
+        "settings": ["theme_glacier_hide_sidebar_icons"],
+        "layer0.texture": null,
         "content_margin": [0,0]
     },
     {
         "class": "icon_folder_loading",
-        "settings": ["theme_Glacier_hide_sidebar_icons"],
-        "layer0.texture": "",
+        "settings": ["theme_glacier_hide_sidebar_icons"],
+        "layer0.texture": null,
         "content_margin": [0,0]
     },
 
@@ -729,7 +700,7 @@
         "class": "button_control",
         "content_margin": [4,8,4,8],
         "min_size": [60,0],
-        "layer0.texture": "",
+        "layer0.texture": null,
         "layer0.opacity": 1,
         "layer0.tint": [8,9,11],
         "layer0.inner_margin": [8,8]
@@ -738,14 +709,14 @@
     {
         "class": "button_control",
         "attributes": ["hover"],
-        "layer0.texture": "",
+        "layer0.texture": null,
         "layer0.tint": [0,0,0]
     },
     // Pressed button state
     {
         "class": "button_control",
         "attributes": ["pressed"],
-        "layer0.texture": "",
+        "layer0.texture": null,
         "layer0.tint": [0,0,0]
     },
 
@@ -757,8 +728,8 @@
     {
         "class": "text_line_control",
         "layer0.texture": "",
-        // "layer0.tint": [118, 255, 205],
-        "layer0.tint": [230, 230, 230],
+        "layer0.tint": [7,11,14],
+        // "layer0.tint": [230,230,230], // is the same color of BG in widget file
         "layer0.opacity": 1,
         "content_margin": [5,7,0,5]
     },
