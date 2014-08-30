@@ -101,7 +101,7 @@
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control","attributes": ["dirty","hover"]}],
-        "layer0.texture": "Theme - Glacier/Glacier/close.png",
+        "layer0.texture": "Theme - Glacier/Glacier/close@2x.png",
         "layer0.opacity": 1,
         "layer0.tint": [94,235,184]
     },
