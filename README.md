@@ -22,7 +22,7 @@ Theme is listed as `Theme - Glacier` in Will Bond's [Sublime Package Control](ht
 
 ## Setup
 
-Activate the UI theme and color scheme by modifying your user preferences file, which you can find using the menu item `Preferences -> Settings - User` in Sublime Text or by clicking <kbd>cmd</kbd><kbd>,</kbd> on a Mac.
+Activate the UI theme and color scheme by modifying your user preferences file, which you can find using the menu item `Preferences -> Settings - User` in Sublime Text or <kbd>cmd</kbd><kbd>,</kbd> on a Mac.
 
 To change the color of the text input background, open `Glacier.sublime-theme`, search for "widget" and follow the comments.
 
