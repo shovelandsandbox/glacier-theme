@@ -2,11 +2,13 @@ Looking to [add Glacier to Vim, Xcode, or Terminal](https://github.com/primedire
 
 # Glacier
 
-[Glacier](http://glaciertheme.com) is a flat, colorful theme/scheme combo for Sublime Text. It focuses on using saturated colors to introduce more contrast and visual interest compared to other flat approaches. 
+[Glacier](http://glaciertheme.com) is a flat, colorful theme/scheme combo for Sublime Text. It focuses on using saturated colors to introduce more contrast and visual interest compared to other flat approaches.
 
 ![Glacier Screenshot](screenshot.jpg)
 ![Glacier Screenshot](screenshot-2.jpg)
 (font shown in screenshots is [Ubuntu Mono](http://font.ubuntu.com/))
+
+** if you want to change the Text input field background ,open `Glacier.sublime-theme` and search the word "widget" and do as the comment say.
 
 ## Install
 
@@ -35,7 +37,7 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
 
 ### Credits
 
-Most icons are from the fantastic [Spacegray](https://github.com/kkga/spacegray) by [Gadzhi Kharkharov](https://github.com/kkga/) - the folder icon seen in the sidebar is from the talented [Joe Harrison](http://thenounproject.com/joe_harrison/) via [the noun project](http://thenounproject.com/). 
+Most icons are from the fantastic [Spacegray](https://github.com/kkga/spacegray) by [Gadzhi Kharkharov](https://github.com/kkga/) - the folder icon seen in the sidebar is from the talented [Joe Harrison](http://thenounproject.com/joe_harrison/) via [the noun project](http://thenounproject.com/).
 
 ### Future Updates
 
