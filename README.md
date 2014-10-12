@@ -1,5 +1,9 @@
 Looking to [add Glacier to Vim, Xcode, or Terminal](https://github.com/primedirective/Glacier-Remixes)?
 
+Glacier UI and syntax are also available for Atom thanks to @mattgraham:
+- [Glacier UI for Atom](https://github.com/mattgraham/glacier-ui-atom)
+- [Glacier Syntax for Atom](https://github.com/mattgraham/glacier-syntax-atom)
+
 # Glacier
 
 [Glacier](http://glaciertheme.com) is a flat, colorful theme/scheme combo for Sublime Text. It focuses on using saturated colors to introduce more contrast and visual interest compared to other flat approaches.
