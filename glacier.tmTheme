@@ -773,6 +773,65 @@
                 <string>#3e4751</string>
             </dict>
         </dict>
+        <!-- Theme additions for JSON - Updated: 2014-09-04 == Start -->
+        <dict>
+            <key>name</key><string>JSON Punctuation</string>
+            <key>scope</key><string>punctuation.definition.string.begin.json - meta.structure.dictionary.value.json, punctuation.definition.string.end.json - meta.structure.dictionary.value.json</string>
+            <key>settings</key>
+                <dict>
+                    <key>foreground</key><string>#ffffff</string>
+                </dict>
+        </dict>
+        <dict>
+            <key>name</key><string>JSON Structure</string>
+            <key>scope</key><string>meta.structure.dictionary.json string.quoted.double.json</string>
+            <key>settings</key>
+                <dict>
+                    <key>foreground</key><string>#3cadd7</string>
+                </dict>
+        </dict>
+        <dict>
+            <key>name</key><string>JSON String</string>
+            <key>scope</key><string>meta.structure.dictionary.value.json string.quoted.double.json</string>
+            <key>settings</key>
+                <dict>
+                    <key>foreground</key><string>#ffe792</string>
+                </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>SublimeLinter Gutter Mark</string>
+            <key>scope</key>
+            <string>sublimelinter.gutter-mark</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FFFFFF</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>SublimeLinter Warning</string>
+            <key>scope</key>
+            <string>sublimelinter.mark.warning</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#DDB700</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>SublimeLinter Error</string>
+            <key>scope</key>
+            <string>sublimelinter.mark.error</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#D02000</string>
+            </dict>
+        </dict>
+        <!-- End  ==  Theme additions for JSON ===================== -->
     </array>
     <key>uuid</key>
     <string>13E579BF-40AB-42E2-9EAB-0AD3EDD88532</string>
