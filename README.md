@@ -8,8 +8,7 @@ Glacier UI and syntax are also available for Atom thanks to @mattgraham:
 
 [Glacier](http://glaciertheme.com) is a flat, colorful theme/scheme combo for Sublime Text. It focuses on using saturated colors to introduce more contrast and visual interest compared to other flat approaches.
 
-![Glacier Screenshot](screenshot.jpg)
-![Glacier Screenshot](screenshot-2.jpg)
+![Glacier Screenshot](screenshot.png)
 (font shown in screenshots is [Ubuntu Mono](http://font.ubuntu.com/))
 
 ## Install
