@@ -798,8 +798,6 @@
                     <key>foreground</key><string>#ffe792</string>
                 </dict>
         </dict>
-<<<<<<< HEAD
-=======
         <dict>
             <key>name</key>
             <string>SublimeLinter Gutter Mark</string>
@@ -833,7 +831,6 @@
                 <string>#D02000</string>
             </dict>
         </dict>
->>>>>>> 903cb7d8048263d4d09d3c2d287a07d1c0b998f1
         <!-- End  ==  Theme additions for JSON ===================== -->
     </array>
     <key>uuid</key>
