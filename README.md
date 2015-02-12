@@ -1,4 +1,4 @@
-Looking to [add Glacier to Vim, Xcode, or Terminal](https://github.com/primedirective/Glacier-Remixes)?
+Looking to [add Glacier to Vim, Xcode, IntelliJ or Terminal](https://github.com/primedirective/Glacier-Remixes)?
 
 Glacier UI and syntax are also available for Atom thanks to @mattgraham:
 - [Glacier UI for Atom](https://github.com/mattgraham/glacier-ui-atom)
