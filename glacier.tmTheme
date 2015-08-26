@@ -16,7 +16,7 @@
                 <key>foreground</key>
                 <string>#efefef</string>
                 <key>invisibles</key>
-                <string>#F3FFB51A</string>
+                <string>#F3FFB5</string>
                 <key>lineHighlight</key>
                 <string>#0d1319</string>
                 <key>selection</key>

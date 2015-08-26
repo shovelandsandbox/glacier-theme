@@ -14,7 +14,7 @@
 			        <key>foreground</key>
 			        <string>#efefef</string>
 			        <key>invisibles</key>
-			        <string>#F3FFB51A</string>
+			        <string>#F3FFB5</string>
 			        <key>selection</key>
 			        <string>#bd4230</string>
 			</dict>
