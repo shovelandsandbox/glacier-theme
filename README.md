@@ -1,9 +1,3 @@
-Looking to [add Glacier to Vim, Xcode, IntelliJ or Terminal](https://github.com/primedirective/Glacier-Remixes)?
-
-Glacier UI and syntax are also available for Atom thanks to @mattgraham:
-- [Glacier UI for Atom](https://github.com/mattgraham/glacier-ui-atom)
-- [Glacier Syntax for Atom](https://github.com/mattgraham/glacier-syntax-atom)
-
 # Glacier
 
 [Glacier](http://glaciertheme.com) is a flat, colorful theme/scheme combo for Sublime Text. It focuses on using saturated colors to introduce more contrast and visual interest compared to other flat approaches.
@@ -38,10 +32,18 @@ To change the color of the text input background, open `Glacier.sublime-theme`, 
 }
 ```
 
-### Credits
+## Other Editors
+
+Glacier has been ported to:
+
+- Atom \[[UI Theme](https://github.com/mattgraham/glacier-ui-atom), [Syntax Theme](https://github.com/mattgraham/glacier-syntax-atom)\] (thanks to [Matt Graham](https://github.com/mattgraham))
+- [Vim, Xcode, PuTTY, Terminal.app, IntelliJ, Terminator](https://github.com/NSBrianWard/Glacier-Remixes) (thanks to [Brian Ward](https://github.com/NSBrianWard))
+- [Visual Studio Code](https://github.com/Tyriar/vscode-theme-glacier) (thanks to [Daniel Imms](https://github.com/Tyriar))
+
+## Credits
 
 Most icons are from the fantastic [Spacegray](https://github.com/kkga/spacegray) by [Gadzhi Kharkharov](https://github.com/kkga/) - the folder icon seen in the sidebar is from the talented [Joe Harrison](http://thenounproject.com/joe_harrison/) via [the noun project](http://thenounproject.com/).
 
-### Future Updates
+## Future Updates
 
 This is my first time writing a theme/color scheme for Sublime, so I have much to learn. As I learn more about styling bits and pieces of the UI, I will make improvements. Please feel free to open issues as you see fit, fork and improve, or contact/follow me on [Twitter](http://twitter.com/joeyfigaro).
