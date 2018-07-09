@@ -32,6 +32,23 @@ To change the color of the text input background, open `Glacier.sublime-theme`, 
 }
 ```
 
+### Markdown
+
+1. Open any .md file
+2. Go to `Preferences` > `Settings - Syntax Specific`
+3. Past the following settings:
+```
+{
+	"color_scheme": "Packages/Theme - Glacier/glacier-markdown.tmTheme",
+	"draw_centered": true,
+	"draw_indent_guides": true,
+	"font_size": 13,
+	"trim_trailing_white_space_on_save": true,
+	"word_wrap": true,
+	"wrap_width": 110
+}
+```
+
 ## Other Editors
 
 Glacier has been ported to:
