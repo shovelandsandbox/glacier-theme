@@ -64,7 +64,7 @@
         "selection_corner_style":    "round",
         "selection_foreground":      "var(white-1)",
         "shadow":                    "var(green-light-1)",
-        "shadow_width":               "3",
+        "shadow_width":              "3",
         "stack_guide":               "color(var(grey-dark-2) alpha(0.69))",
         "tags_foreground":           "var(yellow-light-1)",
         "tags_options":              "stippled_underline",
@@ -575,5 +575,54 @@
             "scope": "text & (punctuation.definition.italic | punctuation.definition.bold | punctuation.definition.raw | punctuation.definition.link | punctuation.definition.metadata | punctuation.definition.image | punctuation.separator.table-cell | punctuation.section.table-header | punctuation.definition.constant)",
             "foreground": "color(var(blue-green) alpha(0.67))",
         },
+        {
+            "name": "================= JSON =================",
+            "scope": "",
+        },
+        {
+            "name": "JSON - Keys",
+            "scope": "source.json meta.mapping.key.json string.quoted.double.json",
+            "foreground": "var(blue-light-1)",
+        },
+        {
+            "name": "JSON - Values",
+            "scope": "source.json meta.mapping.value.json string.quoted.double.json",
+            "foreground": "var(yellow-light-1)",
+        },
+        {
+            "name": "JSON String",
+            "scope": "meta.structure.dictionary.value.json string.quoted.double.json",
+            "foreground": "var(yellow-light-1)",
+        },
+        {
+            "name": "JSON Quotes Keys",
+            "scope": "source.json meta.mapping.key.json string.quoted.double.json punctuation.definition.string",
+            "foreground": "var(white-2)",
+        },
+        {
+            "name": "JSON Quotes Values",
+            "scope": "source.json meta.mapping.value.json string.quoted.double.json punctuation.definition.string",
+            "foreground": "var(white-2)",
+        },
+        {
+            "name": "JSON Sequence Punctuation",
+            "scope": "source.json meta.sequence",
+            "foreground": "var(green-light-1)",
+        },
+        {
+            "name": "JSON Force Separators Color inside Sequence",
+            "scope": "source.json meta.mapping.value.json meta.sequence.json meta.mapping.json  punctuation.separator.mapping.key-value.json",
+            "foreground": "var(white-2)",
+        },
+        {
+            "name": "JSON Force Comma and curly bracket Color inside Sequence",
+            "scope": "source.json meta.mapping.value.json meta.sequence.json meta.mapping.json",
+            "foreground": "var(white-2)",
+        },
+        {
+            "name": "JSON Force Comma Color inside Sequence",
+            "scope": "source.json meta.mapping.value.json meta.sequence.json punctuation.separator.sequence.json",
+            "foreground": "var(white-2)",
+        }
     ]
 }
