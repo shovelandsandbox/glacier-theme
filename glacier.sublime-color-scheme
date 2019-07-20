@@ -481,5 +481,81 @@
             "scope": "other.preprocessor.c entity",
             "foreground": "var(blue-pale-1)",
         },
+        {
+            "name": "================= MARKUPS =================",
+            "scope": "",
+        },
+        {
+            "name": "markup",
+            "scope": "text.html.markdown meta.block-level.markdown markup.heading",
+            "foreground": "var(orange-red-1)",
+            "font_style": "bold",
+        },
+        {
+            "name": "markup headings",
+            "scope": "markup.heading",
+            "foreground": "var(orange-red-1)",
+            "font_style": "bold",
+        },
+        {
+            "name": "markup headings",
+            "scope": "markup.heading punctuation.definition.heading",
+            "foreground": "var(orange-red-1)",
+        },
+        {
+            "name": "markup links",
+            "scope": "markup.underline.link",
+            "foreground": "var(green-light-1)",
+        },
+        {
+            "name": "markup bold",
+            "scope": "markup.bold",
+            "font_style": "bold",
+        },
+        {
+            "name": "markup italic",
+            "scope": "markup.italic",
+            "font_style": "italic",
+        },
+        {
+            "name": "markup bold/italic",
+            "scope": "markup.italic markup.bold | markup.bold markup.italic",
+            "font_style": "bold italic",
+        },
+        {
+            "name": "markup hr",
+            "scope": "punctuation.definition.thematic-break",
+            "foreground": "var(yellow-light-1)",
+        },
+        {
+            "name": "markup blockquote",
+            "scope": "markup.quote punctuation.definition.blockquote",
+            "foreground": "var(yellow-light-1)",
+        },
+        {
+            "name": "markup bullets",
+            "scope": "markup.list.numbered.bullet",
+            "foreground": "var(blue-light-2)",
+        },
+        {
+            "name": "markup bullets",
+            "scope": "markup.list.unnumbered.bullet | (markup.list.numbered punctuation.definition)",
+            "foreground": "color(var(yellow-light-1) alpha(0.67))",
+        },
+        {
+            "name": "markup code",
+            "scope": "markup.raw",
+            "background": "color(var(yellow-light-1) alpha(0.094))"
+        },
+        {
+            "name": "markup punctuation",
+            "scope": "markup.raw punctuation.definition.raw",
+            "foreground": "color(var(white-1) alpha(0.67))",
+        },
+        {
+            "name": "markup punctuation",
+            "scope": "text & (punctuation.definition.italic | punctuation.definition.bold | punctuation.definition.raw | punctuation.definition.link | punctuation.definition.metadata | punctuation.definition.image | punctuation.separator.table-cell | punctuation.section.table-header | punctuation.definition.constant)",
+            "foreground": "color(var(blue-green) alpha(0.67))",
+        },
     ]
 }
