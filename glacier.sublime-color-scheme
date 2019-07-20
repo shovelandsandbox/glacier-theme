@@ -1,5 +1,5 @@
 {
-    "name": "Glacier2",
+    "name": "Glacier",
     "author": "Laurent Indermühle",
     "variables": {
         "black-1":           "hsl(210,  18%,  13%)",
@@ -13,6 +13,7 @@
         "green-light-2":     "hsl(159,  47%,  52%)",
         "grey-dark-1":       "hsl(213,  29%,  21%)",
         "grey-dark-2":       "hsl(212,  33%,  16%)",
+        "grey-light-1":      "hsl(222,   7%,  71%)",
         "grey-light-2":      "hsl(211,  12%,  36%)",
         "orange-light-1":    "hsl( 34, 100%,  66%)",
         "orange-light-2":    "hsl( 17,  90%,  61%)",
@@ -27,19 +28,28 @@
     },
     "globals":
     {
-        "active_guide": "color(var(grey-dark-2) alpha(0.69))",
-        "background": "var(black-3)",
-        "caret": "color(var(yellow-light-1) alpha(0.9))",
-        "find_highlight": "var(green-light-1)",
-        "foreground": "var(white-2)",
-        "guide": "color(var(grey-dark-2) alpha(0.69))",
-        "gutter": "var(black-2)",
-        "gutter_foreground": "var(grey-dark-1)",
-        "inactive_selection": "var(grey-dark-1)",
-        "invisibles": "color(var(yellow-light-1) alpha(0.35))",
-        "line_highlight": "var(black-2)",
-        "selection": "var(orange-red-2)",
-        "selection_foreground": "var(white-1)",
+        "active_guide":              "color(var(grey-dark-2) alpha(0.69))",
+        "background":                "var(black-3)",
+        "caret":                     "color(var(yellow-light-1) alpha(0.9))",
+        "find_highlight":            "var(green-light-1)",
+        "foreground":                "var(white-2)",
+        "guide":                     "color(var(grey-dark-2) alpha(0.69))",
+        "gutter":                    "var(black-2)",
+        "gutter_foreground":         "var(grey-dark-1)",
+        "inactive_selection":        "var(grey-dark-1)",
+        "invisibles":                "color(var(yellow-light-1) alpha(0.35))",
+        "line_highlight":            "var(black-2)",
+        "selection":                 "var(orange-red-2)",
+        "selection_foreground":      "var(white-1)",
+        "misspelling":               "var(red-pink-2)",
+        "block_caret":               "color(var(yellow-light-1) alpha(0.4))",
+        "find_highlight_foreground": "var(dark)",
+        "brackets_options":          "underline",
+        "brackets_foreground":       "color(var(white-2) alpha(0.65))",
+        "bracket_contents_options":  "underline",
+        "bracket_contents_foreground": "color(var(white-2) alpha(0.65))",
+        "tags_options":              "stippled_underline",
+        "selection_border":          "var(black-3)",
     },
     "rules":
     [
@@ -54,8 +64,18 @@
             "foreground": "var(yellow-light-1)"
         },
         {
+            "name": "String variable",
+            "scope": "string variable",
+            "foreground": "var(yellow-light-1)"
+        },
+        {
             "name": "Constant",
             "scope": "constant",
+            "foreground": "var(yellow-light-1)"
+        },
+        {
+            "name": "Built-in constant",
+            "scope": "constant.language",
             "foreground": "var(yellow-light-1)"
         },
         {
@@ -87,6 +107,11 @@
             "font_style": "bold"
         },
         {
+            "name": "Support constant",
+            "scope": "support.constant",
+            "foreground": "var(green-light-1)",
+        },
+        {
             "name": "Storage",
             "scope": "storage",
             "foreground": "var(white-1)"
@@ -102,6 +127,38 @@
             "scope": "entity.other.inherited-class",
             "foreground": "var(green-light-2)",
             "font_style": "italic underline",
+        },
+        {
+            "name": "Annotation Punctuation",
+            "scope": "punctuation.definition.annotation",
+            "foreground": "var(red-pink-2)"
+        },
+        {
+            "name": "Entity name",
+            "scope": "entity.name - (entity.name.filename | entity.name.section | entity.name.tag | entity.name.label)",
+            "foreground": "var(blue-light-1)"
+        },
+        {
+            "name": "Function argument",
+            "scope": "variable.parameter - (source.c | source.c++ | source.objc | source.objc++)",
+            "foreground": "var(red-pink-1)",
+        },
+        {
+            "name": "Language variable",
+            "scope": "variable.language",
+            "foreground": "var(orange-red-1)",
+            "font_style": "italic",
+        },
+        {
+            "name": "Tag attribute",
+            "scope": "entity.other.attribute-name",
+            "foreground": "var(yellow-light-1)",
+        },
+        {
+            "name": "Function call",
+            "scope": "variable.function, variable.annotation",
+            "foreground": "var(red-pink-1)",
+            "font_style": "bold"
         },
         {
             "name": "Tag name",
@@ -129,15 +186,31 @@
             "foreground": "var(green-light-1)",
         },
         {
-            "name": "Support function",
-            "scope": "support.function",
+            "name": "Library function",
+            "scope": "support.macro, support.function",
             "foreground": "var(orange-red-1)",
+        },
+        {
+            "name": "Library class/type",
+            "scope": "support.type, support.class",
+            "foreground": "var(yellow-pure)",
+            "font_style": "bold",
+        },
+        {
+            "name": "Library variable",
+            "scope": "support.other.variable",
         },
         {
             "name": "Invalid",
             "scope": "invalid",
             "foreground": "var(white-2)",
             "background": "var(orange-red-1)",
+        },
+        {
+            "name": "Invalid deprecated",
+            "scope": "invalid.deprecated",
+            "foreground": "var(white-2)",
+            "background": "var(blue-light-2)",
         },
         {
             "name": "Meta tag A",
@@ -147,7 +220,7 @@
         {
             "name": "Embedded Source",
             "scope": "text source, text.html.ruby source",
-            "background": "var(blue-pale-2)",
+            "background": "var(grey-dark-2)",
         },
         {
             "name": "String embedded-source",
@@ -344,6 +417,24 @@
             "name": "Entity",
             "scope": "entity",
             "foreground": "var(blue-light-1)",
+        },
+        {
+            "scope": "entity.name.filename",
+            "foreground": "var(yellow-light-1)",
+        },
+        {
+            "scope": "message.error",
+            "foreground": "var(red)",
+        },
+        {
+            "scope": "diff.deleted.char",
+            "background": "hsla(338, 65%, 56%, 0.30)",
+            "foreground_adjust": "l(+ 10%)",
+        },
+        {
+            "scope": "diff.inserted.char",
+            "background": "hsla(80, 65%, 53%, 0.30)",
+            "foreground_adjust": "l(+ 10%)",
         },
         {
             "name": "Coffee dot",
