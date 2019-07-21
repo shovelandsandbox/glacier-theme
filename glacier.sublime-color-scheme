@@ -520,7 +520,7 @@
     },
     {
       "name": "markup headings",
-      "scope": "markup.heading",
+      "scope": "text.html meta.block-level markup.heading entity.name.section, text.html meta.block-level markup.heading",
       "foreground": "var(orange-red-1)",
       "font_style": "bold"
     },
@@ -552,7 +552,8 @@
     {
       "name": "markup hr",
       "scope": "punctuation.definition.thematic-break",
-      "foreground": "var(yellow-light-1)"
+      "foreground": "var(yellow-light-1)",
+      "font_style": "bold"
     },
     {
       "name": "markup blockquote",
@@ -572,7 +573,7 @@
     {
       "name": "markup code",
       "scope": "markup.raw",
-      "background": "color(var(yellow-light-1) alpha(0.094))"
+      "background": "var(black-1)"
     },
     {
       "name": "markup punctuation",
