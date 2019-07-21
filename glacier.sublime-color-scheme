@@ -579,7 +579,7 @@
     {
       "name": "JSON - Keys",
       "scope": "source.json meta.mapping.key.json string.quoted.double.json",
-      "foreground": "var(blue-light-1)"
+      "foreground": ["hsl(196,  66%,  30%)", "hsl(196,  66%,  95%)"]
     },
     {
       "name": "JSON - Values",
