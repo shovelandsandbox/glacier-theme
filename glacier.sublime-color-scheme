@@ -177,6 +177,23 @@
       "font_style": "bold"
     },
     {
+      "name": "Meta Function",
+      "scope": "source meta.function storage.type.function",
+      "foreground": "var(green-light-2)",
+      "font_style": "italic"
+    },
+    {
+      "name": "Meta Function",
+      "scope": "source meta.class storage.type.class",
+      "foreground": "var(green-light-2)",
+      "font_style": "italic"
+    },
+    {
+      "name": "Keyword other",
+      "scope": "source keyword.other",
+      "foreground": "var(orange-red-2)",
+    },
+    {
       "name": "Tag name",
       "scope": "entity.name.tag",
       "foreground": "var(blue-light-1)"
