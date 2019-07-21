@@ -620,6 +620,41 @@
       "name": "JSON Force Comma Color inside Sequence",
       "scope": "source.json meta.mapping.value.json meta.sequence.json punctuation.separator.sequence.json",
       "foreground": "var(white-2)"
+    },
+    {
+      "name": "================= Python =================",
+      "scope": ""
+    },
+    {
+      "name": "PYTHON support.function.magic no bold",
+      "scope": "source.python support.function.magic",
+      "foreground": "var(orange-red-1)",
+      "font_style": ""
+    },
+    {
+      "name": "PYTHON support.function.builtin no bold",
+      "scope": "support.function.builtin",
+      "foreground": "var(orange-red-1)",
+      "font_style": ""
+    },
+    {
+      "name": "================= YAML =================",
+      "scope": ""
+    },
+    {
+      "name": "YAML String",
+      "scope": "string.unquoted.yaml",
+      "foreground": "var(yellow-light-1)"
+    },
+    {
+      "name": "JavaScript Dollar",
+      "scope": "variable.other.dollar.only.js",
+      "foreground": "var(red-pink-2)"
+    },
+    {
+      "name": "Constant Numeric line-number find-in-files",
+      "scope": "constant.numeric.line-number.find-in-files - match",
+      "foreground": "color(var(blue-light-2) alpha(0.63))"
     }
   ]
 }
