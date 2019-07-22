@@ -191,7 +191,7 @@
     {
       "name": "Keyword other",
       "scope": "source keyword.other",
-      "foreground": "var(orange-red-2)",
+      "foreground": "var(orange-red-2)"
     },
     {
       "name": "Tag name",
@@ -583,7 +583,7 @@
     {
       "name": "markup punctuation",
       "scope": "text & (punctuation.definition.italic | punctuation.definition.bold | punctuation.definition.raw | punctuation.definition.link | punctuation.definition.metadata | punctuation.definition.image | punctuation.separator.table-cell | punctuation.section.table-header | punctuation.definition.constant)",
-      "foreground": "color(var(blue-green) alpha(0.67))"
+      "foreground": "color(var(blue-pale-1) alpha(0.67))"
     },
     {
       "name": "markup list text",
