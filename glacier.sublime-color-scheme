@@ -54,8 +54,6 @@
     "line_highlight":                "var(black-2)",
     "minimap_border":                "var(yellow-light-2)",
     "misspelling":                   "var(red-pink-2)",
-    "phantom_css":                   "var(green-light-1)",
-    "popup_css":                     "var(green-light-1)",
     "selection":                     "var(orange-red-2)",
     "selection_border":              "",
     "selection_border_width":        "0",
