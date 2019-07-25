@@ -114,7 +114,7 @@
       "name": "Keyword",
       "scope": "keyword, keyword.control",
       "foreground": "var(orange-red-1)",
-      "font_style": "bold"
+      "font_style": ""
     },
     {
       "name": "Support",
