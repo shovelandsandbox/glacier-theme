@@ -51,7 +51,7 @@
     "line_diff_deleted":             "var(red-pink-2)",
     "line_diff_modified":            "var(yellow-light-2)",
     "line_diff_width":               "3",
-    "line_highlight":                "var(black-2)",
+    "line_highlight":                "color(var(black-2) alpha(0.6)",
     "minimap_border":                "var(yellow-light-2)",
     "misspelling":                   "var(red-pink-2)",
     "selection":                     "var(orange-red-2)",
