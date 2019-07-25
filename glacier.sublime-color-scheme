@@ -513,6 +513,16 @@
       "foreground": "var(blue-pale-1)"
     },
     {
+      "name": "JavaScript Dollar",
+      "scope": "variable.other.dollar.only.js",
+      "foreground": "var(red-pink-2)"
+    },
+    {
+      "name": "Constant Numeric line-number find-in-files",
+      "scope": "constant.numeric.line-number.find-in-files - match",
+      "foreground": "color(var(blue-light-2) alpha(0.63))"
+    },
+    {
       "name": "================= MARKUPS =================",
       "scope": ""
     },
@@ -638,6 +648,30 @@
       "foreground": "var(white-2)"
     },
     {
+      "name": "================= XML =================",
+      "scope": ""
+    },
+    {
+      "name": "XML - Keys",
+      "scope": "text.xml meta.tag.xml entity.name.tag.localname.xml",
+      "foreground": "var(blue-light-1)"
+    },
+    {
+      "name": "XML - Keys NameSpace",
+      "scope": "text.xml meta.tag.xml entity.name.tag.namespace.xml",
+      "foreground": "var(orange-light-1)"
+    },
+    {
+      "name": "XML - attribute",
+      "scope": "text.xml meta.tag.xml entity.other.attribute-name.localname.xml",
+      "foreground": "var(orange-red-1)"
+    },
+    {
+      "name": "XML - Values",
+      "scope": "text.xml",
+      "foreground": "var(yellow-light-1)"
+    },
+    {
       "name": "================= Python =================",
       "scope": ""
     },
@@ -658,19 +692,18 @@
       "scope": ""
     },
     {
+      "name": "YAML Keys",
+      "scope": "source.yaml string.unquoted.plain.out.yaml entity.name.tag.yaml",
+      "foreground": "var(blue-light-1)"
+    },
+    {
       "name": "YAML String",
       "scope": "string.unquoted.yaml",
       "foreground": "var(yellow-light-1)"
     },
     {
-      "name": "JavaScript Dollar",
-      "scope": "variable.other.dollar.only.js",
-      "foreground": "var(red-pink-2)"
-    },
-    {
-      "name": "Constant Numeric line-number find-in-files",
-      "scope": "constant.numeric.line-number.find-in-files - match",
-      "foreground": "color(var(blue-light-2) alpha(0.63))"
+      "name": "================= ANACONDA =================",
+      "scope": ""
     },
     {
       "name": "anaconda.outline.illegal",
