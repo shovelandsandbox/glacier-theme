@@ -673,6 +673,39 @@
       "name": "Constant Numeric line-number find-in-files",
       "scope": "constant.numeric.line-number.find-in-files - match",
       "foreground": "color(var(blue-light-2) alpha(0.63))"
+    },
+    {
+      "name": "anaconda.outline.illegal",
+      "scope": "anaconda.outline.illegal",
+      "foreground": "var(white-1)",
+      "background": "var(red-pink-1)"
+    },
+    {
+      "name": "anaconda.underline.illegal",
+      "scope": "anaconda.underline.illegal",
+      "background": "var(red-pink-2)"
+    },
+    {
+      "name": "anaconda.outline.warning",
+      "scope": "anaconda.outline.warning",
+      "foregroundt": "var(white-1)",
+      "background": "var(orange-light-2"
+    },
+    {
+      "name": "anaconda.underline.warning",
+      "scope": "anaconda.underline.warning",
+      "background": "var(red-pink-2)"
+    },
+    {
+      "name": "anaconda.outline.violation",
+      "scope": "anaconda.outline.violation",
+      "foreground": "var(white-1)",
+      "background": "#ffffff33"
+    },
+    {
+      "name": "anaconda.underline.violation",
+      "scope": "anaconda.underline.violation",
+      "background": "var(red-pink-2)"
     }
   ]
 }
