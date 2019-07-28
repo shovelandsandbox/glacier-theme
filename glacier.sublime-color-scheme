@@ -107,7 +107,7 @@
       "name": "Variable",
       "scope": "variable",
       "foreground": "var(red-pink-1)",
-      "font_style": "bold"
+      "font_style": ""
     },
     {
       "name": "Keyword",
@@ -119,7 +119,7 @@
       "name": "Support",
       "scope": "support",
       "foreground": "var(yellow-bright-1)",
-      "font_style": "bold"
+      "font_style": ""
     },
     {
       "name": "Support constant",
@@ -129,7 +129,8 @@
     {
       "name": "support.function.magic no bold",
       "scope": "support.function.magic",
-      "foreground": "var(orange-red-1)"
+      "foreground": "var(orange-red-1)",
+      "font_style": ""
     },
     {
       "name": "support.function.builtin no bold",
@@ -167,7 +168,7 @@
     {
       "name": "Function argument",
       "scope": "variable.parameter - (source.c | source.c++ | source.objc | source.objc++)",
-      "foreground": "var(red-pink-2)"
+      "foreground": "var(red-pink-1)"
     },
     {
       "name": "Language variable",
@@ -183,7 +184,7 @@
     {
       "name": "Function call",
       "scope": "variable.function, variable.annotation",
-      "foreground": "var(red-pink-2)",
+      "foreground": "var(orange-red-1)",
       "font_style": "bold"
     },
     {
