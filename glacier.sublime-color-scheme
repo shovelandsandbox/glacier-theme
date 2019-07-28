@@ -127,6 +127,17 @@
       "foreground": "var(green-bright-1)"
     },
     {
+      "name": "support.function.magic no bold",
+      "scope": "support.function.magic",
+      "foreground": "var(orange-red-1)"
+    },
+    {
+      "name": "support.function.builtin no bold",
+      "scope": "support.function.builtin",
+      "foreground": "var(orange-red-1)",
+      "font_style": ""
+    },
+    {
       "name": "Storage",
       "scope": "storage",
       "foreground": "var(white-1)"
@@ -672,22 +683,6 @@
       "name": "XML - Values",
       "scope": "text.xml",
       "foreground": "var(yellow-bright-1)"
-    },
-    {
-      "name": "================= Python =================",
-      "scope": ""
-    },
-    {
-      "name": "PYTHON support.function.magic no bold",
-      "scope": "source.python support.function.magic",
-      "foreground": "var(orange-red-1)",
-      "font_style": ""
-    },
-    {
-      "name": "PYTHON support.function.builtin no bold",
-      "scope": "support.function.builtin",
-      "foreground": "var(orange-red-1)",
-      "font_style": ""
     },
     {
       "name": "================= YAML =================",
