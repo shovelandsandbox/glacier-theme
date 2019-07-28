@@ -1,0 +1,19 @@
+nodes:
+  - name: controller
+    description: Cloud controller node
+    fqdn: controllername.company.com
+    password: passw0rd
+    identity_file: ~
+    nics:
+      management_network: eth0
+      data_network: eth1
+  - name: kvm_compute
+    description: Cloud KVM compute node
+    fqdn: kvmcomputename.company.com
+    password: ~
+    identity_file: /root/identity.pem
+    nics:
+      management_network: eth0
+      data_network: eth1
+    # Comment
+    attribute_file: ~
