@@ -632,7 +632,7 @@
     {
       "name": "JSON Sequence Punctuation",
       "scope": "source.json meta.sequence",
-      "foreground": "var(green-bright-1)"
+      "foreground": "var(orange-bright-2)"
     },
     {
       "name": "JSON Force Separators Color inside Sequence",
