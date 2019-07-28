@@ -106,7 +106,7 @@
     {
       "name": "Variable",
       "scope": "variable",
-      "foreground": "var(pink-bright-1)",
+      "foreground": "var(white-2)",
       "font_style": ""
     },
     {
