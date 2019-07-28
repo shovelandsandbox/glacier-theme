@@ -201,8 +201,8 @@
     },
     {
       "name": "Keyword other",
-      "scope": "source keyword.other",
-      "foreground": "var(red-bright-2)"
+      "scope": "keyword.other",
+      "foreground": "var(red-bright-1)"
     },
     {
       "name": "Tag name",
