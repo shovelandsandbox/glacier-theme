@@ -13,10 +13,10 @@ grey-light-1      B0B3BA          hsl(222,   7%,  71%) 0x
 grey-light-2      515C68 + 3E4751 hsl(211,  12%,  36%) 4x
 orange-light-1    FFB454          hsl( 34, 100%,  66%) 3x
 orange-light-2    F57542          hsl( 17,  90%,  61%) 2x
-orange-red-1      D7503C          hsl(  8,  66%,  54%) 10x
-orange-red-2      BD4230 + 9F3A2C hsl(  8,  59%,  46%) 3x
-red-pink-1        D73C4D          hsl(353,  65%,  54%) 1x
-red-pink-2        9D2130          hsl(353,  65%,  37%) 0x
+red-bright-1      D7503C          hsl(  8,  66%,  54%) 10x
+red-bright-2      BD4230 + 9F3A2C hsl(  8,  59%,  46%) 3x
+pink-bright-1        D73C4D          hsl(353,  65%,  54%) 1x
+pink-bright-2        9D2130          hsl(353,  65%,  37%) 0x
 white-1           FFFFFF          hsl(  0,   0%, 100%) 8x
 white-2           F8F8F8 + EFEFEF hsl(  0,   0%,  97%) 5x
 yellow-light-1    F7F09D          hsl( 55,  85%,  79%) 10x
