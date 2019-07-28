@@ -29,7 +29,8 @@ To change the color of the text input background, open `Glacier.sublime-theme`, 
 ```
 {
   "theme": "Glacier.sublime-theme",
-  "color_scheme": "Packages/Theme - Glacier/glacier.tmTheme",
+  "color_scheme": "Packages/Theme - Glacier/glacier.sublime-color-scheme",
+  // "color_scheme": "Packages/Theme - Glacier/glacier-legacy.tmTheme",
   "font_face": "Ubuntu Mono"
 }
 ```
@@ -43,6 +44,50 @@ The color scheme has been tested against many languages:
 
 #### CSS
 ![css](screenshots/css.png)
+
+#### js
+![js](screenshots/js.png)
+
+#### json
+![json](screenshots/json.png)
+
+Key uses Hashed Syntax Highlighting. If you wish to disable this, create this file: `Packages/Users/glacier-theme/glacier.sublime-color-scheme` and add this in it:
+
+    {
+      "rules": [
+        {
+          "name": "JSON - Keys",
+          "scope": "source.json meta.mapping.key.json string.quoted.double.json",
+          "foreground": "var(blue-bright-1)"
+        }
+      ]
+    }
+
+
+#### lua
+![lua](screenshots/lua.png)
+
+#### md
+![md](screenshots/md.png)
+
+#### py
+![py](screenshots/py.png)
+
+#### rst
+![rst](screenshots/rst.png)
+
+#### sql
+![sql](screenshots/sql.png)
+
+#### xml
+![xml](screenshots/xml.png)
+
+#### yaml
+![yaml](screenshots/yaml.png)
+
+#### Legacy
+
+In case you were using this theme before 2019 and you prefer the original colors, you can activate glacier-legacy.tmTheme. But you will loose latest additions like "gutter line diff" and Markups colorization.
 
 ## Other Editors
 

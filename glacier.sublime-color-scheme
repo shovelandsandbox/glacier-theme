@@ -110,10 +110,15 @@
       "font_style": ""
     },
     {
-      "name": "Keyword",
+      "name": "Keyword & Keyword control",
       "scope": "keyword, keyword.control",
       "foreground": "var(red-bright-1)",
       "font_style": ""
+    },
+    {
+      "name": "Keyword other",
+      "scope": "keyword.other",
+      "foreground": "var(red-bright-1)"
     },
     {
       "name": "Support",
@@ -198,11 +203,6 @@
       "scope": "source meta.class storage.type.class",
       "foreground": "var(green-bright-1)",
       "font_style": "italic"
-    },
-    {
-      "name": "Keyword other",
-      "scope": "keyword.other",
-      "foreground": "var(red-bright-1)"
     },
     {
       "name": "Tag name",
