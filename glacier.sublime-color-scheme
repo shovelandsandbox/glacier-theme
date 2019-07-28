@@ -307,6 +307,10 @@
       "foreground_adjust": "l(+ 5%)"
     },
     {
+      "name": "================== CSS ======================",
+      "scope": ""
+    },
+    {
       "name": "CSS @import",
       "scope": "keyword.control.at-rule.import.css",
       "foreground": "var(yellow-bright-1)",
@@ -331,6 +335,16 @@
       "font_style": "italic"
     },
     {
+      "name": "CSS units",
+      "scope": "keyword.unit.css, constant.numeric.css",
+      "foreground": "var(green-bright-1)"
+    },
+    {
+      "name": "CSS unit names (px)",
+      "scope": "keyword.other.unit.css",
+      "foreground": "var(red-bright-1)"
+    },
+    {
       "name": "CSS tag-name",
       "scope": "meta.selector.css entity.name.tag.css",
       "foreground": "var(red-bright-1)"
@@ -343,12 +357,12 @@
     {
       "name": "CSS property-name",
       "scope": "support.type.property-name.css",
-      "foreground": "var(white-1)"
+      "foreground": "var(yellow-bright-1)"
     },
     {
       "name": "CSS @at-rule",
       "scope": "meta.property-list.css meta.property-name.css",
-      "foreground": "var(red-bright-2)",
+      "foreground": "var(red-bright-1)",
       "font_style": "bold"
     },
     {
@@ -365,11 +379,6 @@
       "name": "LESS variables",
       "scope": "entity.other.less.mixin",
       "foreground": "var(white-1)"
-    },
-    {
-      "name": "LESS units",
-      "scope": "source.css.less keyword.unit.css",
-      "foreground": "var(green-bright-1)"
     },
     {
       "name": "Angular",
