@@ -2,8 +2,10 @@
 
 [Glacier](http://glaciertheme.com) is a flat, colorful theme/scheme combo for Sublime Text. It focuses on using saturated colors to introduce more contrast and visual interest compared to other flat approaches.
 
-![Glacier Screenshot](screenshot.png)
-(font shown in screenshots is [Ubuntu Mono](http://font.ubuntu.com/))
+![Glacier Screenshot](screenshots/glacier.png)
+(font shown in screenshots is [Fira Code](https://github.com/tonsky/FiraCode))
+
+![Color Palette](colors/color-palette.png)
 
 ## Install
 
@@ -32,22 +34,15 @@ To change the color of the text input background, open `Glacier.sublime-theme`, 
 }
 ```
 
-### Markdown
+### Color Scheme
 
-1. Open any .md file
-2. Go to `Preferences` > `Settings - Syntax Specific`
-3. Past the following settings:
-```
-{
-	"color_scheme": "Packages/Theme - Glacier/glacier-markdown.tmTheme",
-	"draw_centered": true,
-	"draw_indent_guides": true,
-	"font_size": 13,
-	"trim_trailing_white_space_on_save": true,
-	"word_wrap": true,
-	"wrap_width": 110
-}
-```
+The color scheme has been tested against many languages:
+
+#### HTML
+![html](screenshots/html.png)
+
+#### CSS
+![css](screenshots/css.png)
 
 ## Other Editors
 
