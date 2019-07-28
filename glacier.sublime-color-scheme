@@ -189,13 +189,13 @@
     {
       "name": "Meta Function",
       "scope": "source meta.function storage.type.function",
-      "foreground": "var(green-bright-2)",
+      "foreground": "var(green-bright-1)",
       "font_style": "italic"
     },
     {
       "name": "Meta Function",
       "scope": "source meta.class storage.type.class",
-      "foreground": "var(green-bright-2)",
+      "foreground": "var(green-bright-1)",
       "font_style": "italic"
     },
     {
@@ -716,7 +716,7 @@
     {
       "name": "anaconda.outline.warning",
       "scope": "anaconda.outline.warning",
-      "foregroundt": "var(white-1)",
+      "foreground": "var(white-1)",
       "background": "var(orange-bright-2"
     },
     {
