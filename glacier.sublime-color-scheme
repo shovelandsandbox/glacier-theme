@@ -2,100 +2,101 @@
   "name": "Glacier",
   "author": "Laurent Indermühle",
   "variables": {
-    "black-1":        "hsl(210,  18%,  13%)",
-    "black-2":        "hsl(210,  32%,   7%)",
-    "black-3":        "hsl(208,  32%,   8%)",
-    "blue-light-1":   "hsl(196,  66%,  54%)",
-    "blue-light-2":   "hsl(196,  56%,  34%)",
-    "blue-pale-1":    "hsl(211,  38%,  77%)",
-    "blue-pale-2":    "hsl(215,  15%,  60%)",
-    "green-light-1":  "hsl(158,  100%, 73%)",
-    "green-light-2":  "hsl(159,  47%,  52%)",
-    "grey-dark-1":    "hsl(213,  29%,  21%)",
-    "grey-dark-2":    "hsl(212,  33%,  16%)",
-    "grey-light-1":   "hsl(222,   7%,  71%)",
-    "grey-light-2":   "hsl(211,  12%,  36%)",
-    "orange-light-1": "hsl( 34, 100%,  66%)",
-    "orange-light-2": "hsl( 17,  90%,  61%)",
-    "orange-red-1":   "hsl(  8,  66%,  54%)",
-    "orange-red-2":   "hsl(  8,  59%,  46%)",
-    "red-pink-1":     "hsl(353,  65%,  54%)",
-    "red-pink-2":     "hsl(353,  65%,  37%)",
-    "white-1":        "hsl(  0,   0%, 100%)",
-    "white-2":        "hsl(  0,   0%,  97%)",
-    "yellow-light-1": "hsl( 55,  85%,  79%)",
-    "yellow-light-2": "hsl( 54,  32%,  56%)"
+    "black-1":         "hsl(210,  32%,   8%)",
+    "black-2":         "hsl(210,  32%,   4%)",
+    "blue-dark-1":     "hsl(210,  33%,  28%)",
+    "blue-dark-2":     "hsl(210,  33%,  14%)",
+    "blue-bright-1":   "hsl(196,  66%,  54%)",
+    "blue-bright-2":   "hsl(196,  56%,  34%)",
+    "blue-pale-1":     "hsl(211,  38%,  77%)",
+    "blue-pale-2":     "hsl(215,  15%,  60%)",
+    "green-bright-1":  "hsl(158,  100%, 73%)",
+    "green-bright-2":  "hsl(159,  47%,  52%)",
+    "grey-bright-1":   "hsl(222,   7%,  71%)",
+    "grey-bright-2":   "hsl(211,  12%,  36%)",
+    "orange-bright-1": "hsl( 34, 100%,  66%)",
+    "orange-bright-2": "hsl( 17,  90%,  61%)",
+    "orange-red-1":    "hsl(0,    85%,  60%)",
+    "orange-red-2":    "hsl(0,    62%,  39%)",
+    "purple-bright-1": "hsl(297,  59%,  49%)",
+    "purple-bright-2": "hsl(297,  58%,  31%)",
+    "red-pink-1":      "hsl(338,  64%,  55%)",
+    "red-pink-2":      "hsl(338,  84%,  35%)",
+    "white-1":         "hsl(  0,   0%,  98%)",
+    "white-2":         "hsl(  0,   0%,  90%)",
+    "yellow-bright-1": "hsl( 55,  85%,  79%)",
+    "yellow-bright-2": "hsl( 54,  32%,  56%)"
   },
   "globals": {
-    "accent":                        "var(green-light-2)",
-    "active_guide":                  "color(var(grey-dark-2) alpha(0.69))",
-    "background":                    "var(black-3)",
-    "block_caret":                   "color(var(yellow-light-1) alpha(0.4))",
+    "accent":                        "var(green-bright-2)",
+    "active_guide":                  "color(var(blue-dark-2) alpha(0.69))",
+    "background":                    "var(black-1)",
+    "block_caret":                   "color(var(yellow-bright-1) alpha(0.4))",
     "bracket_contents_foreground":   "var(white-1)",
     "bracket_contents_options":      "underline",
     "brackets_foreground":           "color(var(white-2) alpha(0.65))",
     "brackets_options":              "underline",
-    "caret":                         "color(var(yellow-light-1) alpha(0.9))",
-    "find_highlight":                "var(green-light-1)",
-    "find_highlight_foreground":     "var(black-3)",
+    "caret":                         "color(var(yellow-bright-1) alpha(0.9))",
+    "find_highlight":                "var(green-bright-1)",
+    "find_highlight_foreground":     "var(black-2)",
     "fold_marker":                   "var(orange-red-1)",
-    "foreground":                    "var(white-2)",
-    "guide":                         "color(var(grey-dark-2) alpha(0.69))",
+    "foreground":                    "var(white-1)",
+    "guide":                         "color(var(blue-dark-2) alpha(0.69))",
     "gutter":                        "var(black-2)",
-    "gutter_foreground":             "var(grey-dark-1)",
-    "highlight":                     "var(yellow-light-1)",
-    "inactive_selection":            "var(grey-dark-1)",
+    "gutter_foreground":             "var(blue-dark-1)",
+    "highlight":                     "var(yellow-bright-1)",
+    "inactive_selection":            "var(blue-dark-1)",
     "inactive_selection_foreground": "",
-    "invisibles":                    "color(var(yellow-light-1) alpha(0.35))",
-    "line_diff_added":               "var(green-light-2)",
+    "invisibles":                    "color(var(yellow-bright-1) alpha(0.35))",
+    "line_diff_added":               "var(green-bright-2)",
     "line_diff_deleted":             "var(red-pink-2)",
-    "line_diff_modified":            "var(yellow-light-2)",
+    "line_diff_modified":            "var(yellow-bright-2)",
     "line_diff_width":               "3",
-    "line_highlight":                "color(var(black-2) alpha(0.6)",
-    "minimap_border":                "var(yellow-light-2)",
-    "misspelling":                   "var(red-pink-2)",
+    "line_highlight":                "color(var(black-2) alpha(.6)",
+    "minimap_border":                "var(yellow-bright-2)",
+    "misspelling":                   "var(purple-bright-1)",
     "selection":                     "var(orange-red-2)",
     "selection_border":              "",
     "selection_border_width":        "0",
     "selection_corner_radius":       "3",
     "selection_corner_style":        "round",
     "selection_foreground":          "var(white-1)",
-    "shadow":                        "var(yellow-light-1)",
+    "shadow":                        "var(yellow-bright-1)",
     "shadow_width":                  "3",
-    "stack_guide":                   "color(var(grey-dark-2) alpha(0.69))",
-    "tags_foreground":               "var(yellow-light-1)",
+    "stack_guide":                   "color(var(blue-dark-2) alpha(0.69))",
+    "tags_foreground":               "var(yellow-bright-1)",
     "tags_options":                  "stippled_underline"
   },
   "rules": [
     {
       "name": "Comment",
       "scope": "comment",
-      "foreground": "var(grey-light-2)"
+      "foreground": "var(grey-bright-2)"
     },
     {
       "name": "String",
       "scope": "string",
-      "foreground": "var(yellow-light-1)"
+      "foreground": "var(yellow-bright-1)"
     },
     {
       "name": "String variable",
       "scope": "string variable",
-      "foreground": "var(yellow-light-1)"
+      "foreground": "var(yellow-bright-1)"
     },
     {
       "name": "Constant",
       "scope": "constant",
-      "foreground": "var(yellow-light-1)"
+      "foreground": "var(yellow-bright-1)"
     },
     {
       "name": "Built-in constant",
       "scope": "constant.language",
-      "foreground": "var(yellow-light-1)"
+      "foreground": "var(yellow-bright-1)"
     },
     {
       "name": "String Constant",
       "scope": "string constant",
-      "foreground": "var(green-light-1)"
+      "foreground": "var(green-bright-1)"
     },
     {
       "name": "User-defined constant",
@@ -117,13 +118,13 @@
     {
       "name": "Support",
       "scope": "support",
-      "foreground": "var(yellow-light-1)",
+      "foreground": "var(yellow-bright-1)",
       "font_style": "bold"
     },
     {
       "name": "Support constant",
       "scope": "support.constant",
-      "foreground": "var(green-light-1)"
+      "foreground": "var(green-bright-1)"
     },
     {
       "name": "Storage",
@@ -133,13 +134,13 @@
     {
       "name": "Storage type",
       "scope": "storage.type",
-      "foreground": "var(blue-light-1)",
+      "foreground": "var(blue-bright-1)",
       "font_style": "italic"
     },
     {
       "name": "Inherited class",
       "scope": "entity.other.inherited-class",
-      "foreground": "var(green-light-2)",
+      "foreground": "var(green-bright-2)",
       "font_style": "italic underline"
     },
     {
@@ -150,12 +151,12 @@
     {
       "name": "Entity name",
       "scope": "entity.name - (entity.name.filename | entity.name.section | entity.name.tag | entity.name.label)",
-      "foreground": "var(blue-light-1)"
+      "foreground": "var(blue-bright-1)"
     },
     {
       "name": "Function argument",
       "scope": "variable.parameter - (source.c | source.c++ | source.objc | source.objc++)",
-      "foreground": "var(red-pink-1)"
+      "foreground": "var(red-pink-2)"
     },
     {
       "name": "Language variable",
@@ -166,24 +167,24 @@
     {
       "name": "Tag attribute",
       "scope": "entity.other.attribute-name",
-      "foreground": "var(yellow-light-1)"
+      "foreground": "var(yellow-bright-1)"
     },
     {
       "name": "Function call",
       "scope": "variable.function, variable.annotation",
-      "foreground": "var(red-pink-1)",
+      "foreground": "var(red-pink-2)",
       "font_style": "bold"
     },
     {
       "name": "Meta Function",
       "scope": "source meta.function storage.type.function",
-      "foreground": "var(green-light-2)",
+      "foreground": "var(green-bright-2)",
       "font_style": "italic"
     },
     {
       "name": "Meta Function",
       "scope": "source meta.class storage.type.class",
-      "foreground": "var(green-light-2)",
+      "foreground": "var(green-bright-2)",
       "font_style": "italic"
     },
     {
@@ -194,27 +195,27 @@
     {
       "name": "Tag name",
       "scope": "entity.name.tag",
-      "foreground": "var(blue-light-1)"
+      "foreground": "var(blue-bright-1)"
     },
     {
       "name": "HTML id",
       "scope": "entity.other.attribute-name.id.html",
-      "foreground": "var(orange-light-2)"
+      "foreground": "var(orange-bright-2)"
     },
     {
       "name": "HTML class",
       "scope": "entity.other.attribute-name.html",
-      "foreground": "var(green-light-1)"
+      "foreground": "var(green-bright-1)"
     },
     {
       "name": "HTML punctuations tags",
       "scope": "punctuation.definition.tag.end, punctuation.definition.tag.begin, punctuation.definition.tag",
-      "foreground": "var(blue-light-2)"
+      "foreground": "var(blue-bright-2)"
     },
     {
       "name": "HTML Entities",
       "scope": "constant.character.entity.html",
-      "foreground": "var(green-light-1)"
+      "foreground": "var(green-bright-1)"
     },
     {
       "name": "Library function",
@@ -224,7 +225,7 @@
     {
       "name": "Library class/type",
       "scope": "support.type, support.class",
-      "foreground": "var(yellow-light-1)",
+      "foreground": "var(yellow-bright-1)",
       "font_style": "bold"
     },
     {
@@ -241,29 +242,29 @@
       "name": "Invalid deprecated",
       "scope": "invalid.deprecated",
       "foreground": "var(white-2)",
-      "background": "var(blue-light-2)"
+      "background": "var(blue-bright-2)"
     },
     {
       "name": "Meta tag A",
       "scope": "declaration.tag, declaration.tag entity, meta.tag, meta.tag entity",
-      "foreground": "var(blue-light-1)"
+      "foreground": "var(blue-bright-1)"
     },
     {
       "name": "Embedded Source",
       "scope": "text source, text.html.ruby source",
-      "background": "var(grey-dark-2)"
+      "background": "var(blue-dark-2)"
     },
     {
       "name": "String embedded-source",
       "scope": "string.quoted source",
-      "background": "var(green-light-1)"
+      "background": "var(green-bright-1)"
     },
     {
       "name": "diff.header",
       "scope": "meta.diff, meta.diff.header",
       "foreground": "var(white-2)",
       "font_style": "italic",
-      "background": "var(grey-dark-1)"
+      "background": "var(blue-dark-1)"
     },
     {
       "name": "diff.deleted",
@@ -275,13 +276,13 @@
       "name": "diff.inserted",
       "scope": "markup.inserted",
       "foreground": "var(white-2)",
-      "background": "var(green-light-2)"
+      "background": "var(green-bright-2)"
     },
     {
       "name": "diff.changed",
       "scope": "markup.changed",
       "foreground": "var(white-2)",
-      "background": "var(blue-light-1)"
+      "background": "var(blue-bright-1)"
     },
     {
       "scope": "diff.deleted",
@@ -296,31 +297,31 @@
     {
       "name": "CSS @import",
       "scope": "keyword.control.at-rule.import.css",
-      "foreground": "var(yellow-light-1)",
+      "foreground": "var(yellow-bright-1)",
       "font_style": "bold"
     },
     {
       "name": "CSS#id",
       "scope": "meta.selector.css entity.other.attribute-name.id",
-      "foreground": "var(yellow-light-1)",
+      "foreground": "var(yellow-bright-1)",
       "font_style": "bold"
     },
     {
       "name": "CSS.class",
       "scope": "meta.selector.css entity.other.attribute-name.class",
-      "foreground": "var(green-light-1)",
+      "foreground": "var(blue-bright-1)",
       "font_style": "bold"
     },
     {
       "name": "CSS property-value",
       "scope": "meta.property-group support.constant.property-value.css, meta.property-value support.constant.property-value.css",
-      "foreground": "var(green-light-1)",
+      "foreground": "var(green-bright-1)",
       "font_style": "italic"
     },
     {
       "name": "CSS tag-name",
-      "scope": "meta.selector.css entity.name.tag",
-      "foreground": "var(blue-light-1)"
+      "scope": "meta.selector.css entity.name.tag.css",
+      "foreground": "var(orange-red-1)"
     },
     {
       "name": "CSS constructor argument",
@@ -334,14 +335,14 @@
     },
     {
       "name": "CSS @at-rule",
-      "scope": "meta.preprocessor.at-rule keyword.control.at-rule",
-      "foreground": "var(yellow-light-1)",
+      "scope": "meta.property-list.css meta.property-name.css",
+      "foreground": "var(orange-red-2)",
       "font_style": "bold"
     },
     {
       "name": "CSS additional-constants",
       "scope": "meta.property-value support.constant.named-color.css, meta.property-value constant",
-      "foreground": "var(yellow-light-1)"
+      "foreground": "var(yellow-bright-1)"
     },
     {
       "name": "LESS variables",
@@ -356,12 +357,12 @@
     {
       "name": "LESS units",
       "scope": "source.css.less keyword.unit.css",
-      "foreground": "var(green-light-1)"
+      "foreground": "var(green-bright-1)"
     },
     {
       "name": "Angular",
       "scope": "entity.other.attribute-name.angular.html, source.angular.embedded.html",
-      "foreground": "var(yellow-light-1)"
+      "foreground": "var(yellow-bright-1)"
     },
     {
       "name": "SublimeLinter Outline",
@@ -371,7 +372,7 @@
     {
       "name": "SublimeLinter Warning",
       "scope": "sublimelinter.mark.warning",
-      "foreground": "var(orange-light-1)"
+      "foreground": "var(orange-bright-1)"
     },
     {
       "name": "SublimeLinter Error",
@@ -407,7 +408,7 @@
     {
       "name": "SublimeLinter Annotations",
       "scope": "sublimelinter.outline.notes",
-      "background": "var(grey-dark-2)"
+      "background": "var(blue-dark-2)"
     },
     {
       "name": "SublimeLinter Gutter Mark",
@@ -417,17 +418,17 @@
     {
       "name": "Doctype XML Processing",
       "scope": "meta.tag.sgml.doctype.xml, declaration.sgml.html declaration.doctype, declaration.sgml.html declaration.doctype entity, declaration.sgml.html declaration.doctype string, declaration.xml-processing, declaration.xml-processing entity, declaration.xml-processing string, doctype",
-      "foreground": "var(grey-light-2)"
+      "foreground": "var(grey-bright-2)"
     },
     {
       "name": "GitGutter changed",
       "scope": "markup.changed.git_gutter",
-      "foreground": "var(blue-light-1)"
+      "foreground": "var(blue-bright-1)"
     },
     {
       "name": "GitGutter inserted",
       "scope": "markup.inserted.git_gutter",
-      "foreground": "var(green-light-2)"
+      "foreground": "var(green-bright-2)"
     },
     {
       "name": "GitGutter deleted",
@@ -437,21 +438,21 @@
     {
       "name": "GitGutter ignored",
       "scope": "markup.ignored.git_gutter",
-      "foreground": "var(grey-light-2)"
+      "foreground": "var(grey-bright-2)"
     },
     {
       "name": "GitGutter untracked",
       "scope": "markup.untracked.git_gutter",
-      "foreground": "var(grey-light-2)"
+      "foreground": "var(grey-bright-2)"
     },
     {
       "name": "Entity",
       "scope": "entity",
-      "foreground": "var(blue-light-1)"
+      "foreground": "var(blue-bright-1)"
     },
     {
       "scope": "entity.name.filename",
-      "foreground": "var(yellow-light-1)"
+      "foreground": "var(yellow-bright-1)"
     },
     {
       "scope": "message.error",
@@ -470,12 +471,12 @@
     {
       "name": "Coffee dot",
       "scope": "meta.delimiter.method.period.coffee",
-      "foreground": "var(blue-light-1)"
+      "foreground": "var(blue-bright-1)"
     },
     {
       "name": "Coffee curleys",
       "scope": "meta.brace.curly.coffee",
-      "foreground": "var(green-light-1)"
+      "foreground": "var(green-bright-1)"
     },
     {
       "name": "Coffee vars",
@@ -485,22 +486,22 @@
     {
       "name": "Coffee instance var",
       "scope": "variable.other.readwrite.instance.coffee",
-      "foreground": "var(green-light-1)"
+      "foreground": "var(green-bright-1)"
     },
     {
       "name": "Coffee brace",
       "scope": "meta.brace.round.coffee,meta.brace.square.coffee",
-      "foreground": "var(yellow-light-1)"
+      "foreground": "var(yellow-bright-1)"
     },
     {
       "name": "Coffee embeded",
       "scope": "punctuation.section.embedded.coffee",
-      "foreground": "var(green-light-1)"
+      "foreground": "var(green-bright-1)"
     },
     {
       "name": "String.regexp",
       "scope": "string.regexp",
-      "foreground": "var(orange-light-1)"
+      "foreground": "var(orange-bright-1)"
     },
     {
       "name": "C/C++ Preprocessor Line",
@@ -520,7 +521,7 @@
     {
       "name": "Constant Numeric line-number find-in-files",
       "scope": "constant.numeric.line-number.find-in-files - match",
-      "foreground": "color(var(blue-light-2) alpha(0.63))"
+      "foreground": "color(var(blue-bright-2) alpha(0.63))"
     },
     {
       "name": "================= MARKUPS =================",
@@ -540,7 +541,7 @@
     {
       "name": "markup links",
       "scope": "markup.underline.link",
-      "foreground": "var(green-light-1)"
+      "foreground": "var(green-bright-1)"
     },
     {
       "name": "markup bold",
@@ -560,43 +561,44 @@
     {
       "name": "markup hr",
       "scope": "punctuation.definition.thematic-break",
-      "foreground": "var(yellow-light-1)",
+      "foreground": "var(yellow-bright-1)",
       "font_style": "bold"
     },
     {
       "name": "markup blockquote",
       "scope": "markup.quote punctuation.definition.blockquote",
-      "foreground": "var(yellow-light-1)"
+      "foreground": "var(yellow-bright-1)"
     },
     {
       "name": "markup bullets",
       "scope": "markup.list.numbered.bullet",
-      "foreground": "var(blue-light-2)"
+      "foreground": "var(blue-bright-2)"
     },
     {
       "name": "markup bullets",
       "scope": "markup.list.unnumbered.bullet | (markup.list.numbered punctuation.definition)",
-      "foreground": "color(var(yellow-light-1) alpha(0.67))"
+      "foreground": "color(var(yellow-bright-1) alpha(0.67))"
     },
     {
       "name": "markup code",
       "scope": "markup.raw",
-      "background": "var(black-1)"
+      "foreground": "var(grey-bright-1)",
+      "background": "var(blue-dark-1)"
     },
     {
       "name": "markup punctuation",
       "scope": "markup.raw punctuation.definition.raw",
-      "foreground": "color(var(white-1) alpha(0.67))"
+      "foreground": "var(white-2)"
     },
     {
       "name": "markup punctuation",
       "scope": "text & (punctuation.definition.italic | punctuation.definition.bold | punctuation.definition.raw | punctuation.definition.link | punctuation.definition.metadata | punctuation.definition.image | punctuation.separator.table-cell | punctuation.section.table-header | punctuation.definition.constant)",
-      "foreground": "color(var(blue-pale-1) alpha(0.67))"
+      "foreground": "var(blue-pale-1)"
     },
     {
       "name": "markup list text",
       "scope": "text.html.markdown markup.list.unnumbered.markdown meta.paragraph.list.markdown",
-      "foreground": "var(yellow-light-1)"
+      "foreground": "var(yellow-bright-1)"
     },
     {
       "name": "================= JSON =================",
@@ -610,12 +612,12 @@
     {
       "name": "JSON - Values",
       "scope": "source.json meta.mapping.value.json string.quoted.double.json",
-      "foreground": "var(yellow-light-1)"
+      "foreground": "var(yellow-bright-1)"
     },
     {
       "name": "JSON String",
       "scope": "meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "var(yellow-light-1)"
+      "foreground": "var(yellow-bright-1)"
     },
     {
       "name": "JSON Quotes Keys",
@@ -630,7 +632,7 @@
     {
       "name": "JSON Sequence Punctuation",
       "scope": "source.json meta.sequence",
-      "foreground": "var(green-light-1)"
+      "foreground": "var(green-bright-1)"
     },
     {
       "name": "JSON Force Separators Color inside Sequence",
@@ -654,12 +656,12 @@
     {
       "name": "XML - Keys",
       "scope": "text.xml meta.tag.xml entity.name.tag.localname.xml",
-      "foreground": "var(blue-light-1)"
+      "foreground": "var(blue-bright-1)"
     },
     {
       "name": "XML - Keys NameSpace",
       "scope": "text.xml meta.tag.xml entity.name.tag.namespace.xml",
-      "foreground": "var(orange-light-1)"
+      "foreground": "var(orange-bright-1)"
     },
     {
       "name": "XML - attribute",
@@ -669,7 +671,7 @@
     {
       "name": "XML - Values",
       "scope": "text.xml",
-      "foreground": "var(yellow-light-1)"
+      "foreground": "var(yellow-bright-1)"
     },
     {
       "name": "================= Python =================",
@@ -694,12 +696,12 @@
     {
       "name": "YAML Keys",
       "scope": "source.yaml string.unquoted.plain.out.yaml entity.name.tag.yaml",
-      "foreground": "var(blue-light-1)"
+      "foreground": "var(blue-bright-1)"
     },
     {
       "name": "YAML String",
       "scope": "string.unquoted.yaml",
-      "foreground": "var(yellow-light-1)"
+      "foreground": "var(yellow-bright-1)"
     },
     {
       "name": "================= ANACONDA =================",
@@ -720,7 +722,7 @@
       "name": "anaconda.outline.warning",
       "scope": "anaconda.outline.warning",
       "foregroundt": "var(white-1)",
-      "background": "var(orange-light-2"
+      "background": "var(orange-bright-2"
     },
     {
       "name": "anaconda.underline.warning",
