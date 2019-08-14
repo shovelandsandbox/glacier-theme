@@ -29,7 +29,7 @@
   },
   "globals": {
     "accent":                        "var(green-bright-2)",
-    "active_guide":                  "color(var(blue-dark-1) a(0.69))",
+    "active_guide":                  "color(var(yellow-bright-2) a(0.5))",
     "background":                    "var(black-1)",
     "block_caret":                   "color(var(yellow-bright-1) a(0.4))",
     "bracket_contents_foreground":   "var(white-1)",
@@ -63,7 +63,7 @@
     "selection_foreground":          "var(white-1)",
     "shadow":                        "var(yellow-bright-1)",
     "shadow_width":                  "3",
-    "stack_guide":                   "color(var(blue-dark-2) a(0.69))",
+    "stack_guide":                   "color(var(blue-dark-1) a(0.5))",
     "tags_foreground":               "var(yellow-bright-1)",
     "tags_options":                  "stippled_underline"
   },
